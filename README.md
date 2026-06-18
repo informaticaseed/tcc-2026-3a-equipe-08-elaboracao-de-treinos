@@ -7,9 +7,11 @@
 
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
-| (nome 1) | @username | 3A |
+| Cauã Wesley | cauaribeiro1010 | 3A |
 | (nome 2) | @username | 3A |
 | (nome 3) | @username | 3A |
+| (nome 4) | @username | 3A |
+| (nome 5) | @username | 3A |
 
 **Tema:** (escreva aqui em 1 frase)
 **Tecnologia:** Python + Flask + SQLite
