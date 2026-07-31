@@ -1,7 +1,7 @@
 # Acompanhamento Quinzenal — Prof. Rafael
-**Grupo:** [Nome do Grupo]
-**Turma:** 3A / 3B / 3C
-**Repositório:** [link]
+**Grupo:** Elaboração de treinos
+**Turma:** 3A
+
 
 ---
 
@@ -11,9 +11,18 @@
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Arthur | Lovable: frontend, backend e banco dados |
+| Cauã | Pesquisar sobre o lovable: custos, tecnologias utilizadas, funcionamento do backend e banco de dados, otimizar de tokens, qual é o sgbd que o lovable utiliza |
+| Kauã | Relatório: metodologia e revisão teórica  |
+| Roberto | Claude: integração com github e melhorias no site; Vercel para fazer deploy |
+| Thalles | Relatório: levantamento dos requisitos, diagrama de caso de uso|
+| Victor Hugo | Relatório: bibliografia e relatório semanal |
+
+backlog:
+- Desenvolvimento do banco de dados
+- Desenvolvimento do backend
+- Desenvolvimento do frontend
+- Relatório: metodologia, revisão teórica, ,levantamento dos requisitos, diagrama de caso de uso conclusão, prints, bibliografia.
 
 ### Verificação em 08/08
 
