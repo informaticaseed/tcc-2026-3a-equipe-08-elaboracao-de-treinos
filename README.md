@@ -1,4 +1,4 @@
-# TCC 2026 — [Nome do Grupo]
+# TCC 2026 — [Treino.pro]
 **LTP3 + QP3 · CEMIC 2026 · Prof. Rafael Martins Alves**
  
 ---
@@ -20,7 +20,7 @@
 
 ## 🎯 O que o sistema faz
 
-(O sistema elabora treinos para pessoas que n sabem por onde começar )
+(O sistema elabora treinos para os usuários de acordo com as informações passadas)
 
 ---
 
