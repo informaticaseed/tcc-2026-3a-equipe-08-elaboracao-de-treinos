@@ -8,19 +8,19 @@
 | Nome completo | GitHub | Turma |
 |--------------|--------|-------|
 | Cauã Wesley | cauaribeiro1010 | 3A |
-| (nome 2) | @username | 3A |
-| (nome 3) | @username | 3A |
-| (nome 4) | @username | 3A |
+| Arthur Henrique | Arthur-font | 3A |
+| Roberto Dias | robertodiasahlert-a11y | 3A |
+| Thalles Silva | Thalles-08 | 3A |
 | (nome 5) | @username | 3A |
 
-**Tema:** (escreva aqui em 1 frase)
-**Tecnologia:** Python + Flask + SQLite
+**Tema:** (elaboração de treinos)
+**Tecnologia:** Javascript + Flask + SQLite
 
 ---
 
 ## 🎯 O que o sistema faz
 
-(Descreva em 2-3 frases o problema que o sistema resolve e para quem)
+(O sistema elabora treinos para pessoas que n sabem por onde começar )
 
 ---
 
