@@ -11,7 +11,7 @@
 | Arthur Henrique | Arthur-font | 3A |
 | Roberto Dias | robertodiasahlert-a11y | 3A |
 | Thalles Silva | Thalles-08 | 3A |
-| (nome 5) | @username | 3A |
+| Kauã Gabriel | kauagabriel3A | 3A |
 
 **Tema:** (elaboração de treinos)
 **Tecnologia:** Javascript + Flask + SQLite
