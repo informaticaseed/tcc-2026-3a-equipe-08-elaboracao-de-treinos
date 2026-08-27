@@ -39,13 +39,16 @@ backlog:
 
 ## Quinzena 2 — 10/08 a 22/08
 
-### Compromissos assumidos em 10/08
+### Compromissos assumidos em 27/08
 
 | Integrante | O que se comprometeu a fazer |
 |-----------|------------------------------|
-| (nome 1) | |
-| (nome 2) | |
-| (nome 3) | |
+| Arthur | Vercel/renger para fazer deploy  |
+| Cauã |  conclusão e introducao  |
+| Kauã | Relatório: metodologia e revisão teórica  |
+| Roberto | Clonar o reposit[orio para o computador, criar o supabase no computador mantendo o supabase do lovable tendo .env apontando para o local e remoto |
+| Thalles | Fazer o diagrama de caso de uso no drawio |
+| Victor Hugo | Relatorio no formato da escola juntar todas as entregas feitas |
 
 ### Verificação em 22/08
 
