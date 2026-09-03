@@ -1,0 +1,77 @@
+Código
+
+Requisito não funcional
+
+Descrição
+
+RNF01
+
+Segurança
+
+O sistema deverá proteger os dados dos usuários e impedir acessos não autorizados.
+
+RNF02
+
+Privacidade
+
+Os dados pessoais dos usuários deverão ser armazenados e utilizados de forma segura.
+
+RNF03
+
+Desempenho
+
+O sistema deverá apresentar as informações e executar suas funções em um tempo adequado, evitando longas esperas.
+
+RNF04
+
+Usabilidade
+
+A interface deverá ser simples, intuitiva e fácil de utilizar.
+
+RNF05
+
+Responsividade
+
+O sistema deverá se adaptar a diferentes tamanhos de tela, como celulares, tablets e computadores.
+
+RNF06
+
+Disponibilidade
+
+O sistema deverá estar disponível para utilização sempre que necessário, salvo períodos de manutenção.
+
+RNF07
+
+Confiabilidade
+
+O sistema deverá apresentar informações corretas e evitar perdas ou alterações indevidas nos dados.
+
+RNF08
+
+Manutenibilidade
+
+O sistema deverá possuir uma estrutura organizada que facilite futuras correções, atualizações e melhorias.
+
+RNF09
+
+Compatibilidade
+
+O sistema deverá funcionar adequadamente nos principais navegadores e dispositivos utilizados pelos usuários.
+
+RNF10
+
+Escalabilidade
+
+O sistema deverá permitir a inclusão de novos usuários, exercícios e funcionalidades sem comprometer seu funcionamento.
+
+RNF11
+
+Backup
+
+Os dados armazenados deverão possuir cópias de segurança para reduzir o risco de perda de informações.
+
+RNF12
+
+Acessibilidade
+
+A interface deverá utilizar elementos visuais e textos de forma que facilite a utilização por diferentes usuários.
