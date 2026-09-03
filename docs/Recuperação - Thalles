@@ -1,0 +1,23 @@
+                    ┌───────────────────────────────┐
+                    │       SISTEMA DE TREINOS      │
+                    │                               │
+ Usuário ──────────►│ (Cadastrar-se)                │
+    │               │ (Fazer login)                 │
+    │               │ (Editar perfil)               │
+    │               │ (Informar objetivos)          │
+    │               │ (Consultar treinos)           │
+    │               │ (Receber treino personalizado)│
+    │               │ (Registrar treino realizado)  │
+    │               │ (Consultar progresso)         │
+    │               │ (Consultar recomendações)     │
+    │               │                               │
+    │               └───────────────────────────────┘
+    │
+    │
+ Administrador ────► (Gerenciar usuários)
+        │
+        ├──────────► (Gerenciar exercícios)
+        │
+        ├──────────► (Gerenciar treinos)
+        │
+        └──────────► (Gerenciar recomendações)
