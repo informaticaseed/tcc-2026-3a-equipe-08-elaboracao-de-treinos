@@ -21,7 +21,7 @@
 | 3 | (escreva aqui) | Alta | ⏳ A fazer |
 | 4 | Migrar os arquivos SQL do Lovable para o SUpabase | Alta | Feita |
 | 5 | Adicionar manualmente as imagens do Lovable para o Storage do Supabase | Alta | ⏳ A fazer |
-| 6 | (escreva aqui) | Baixa | ⏳ A fazer |
+| 6 | Tornar possivel login via Google no Supabase | Alta | Feita |
 
 > Atualize o Status conforme avança: ⏳ A fazer → 🔄 Fazendo → ✅ Feito
 
