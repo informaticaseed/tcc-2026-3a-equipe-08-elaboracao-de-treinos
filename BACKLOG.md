@@ -19,7 +19,7 @@
 | 1 | (escreva aqui) | Alta | ⏳ A fazer |
 | 2 | (escreva aqui) | Alta | ⏳ A fazer |
 | 3 | (escreva aqui) | Alta | ⏳ A fazer |
-| 4 | (escreva aqui) | Média | ⏳ A fazer |
+| 4 | Migrar os arquivos SQL do Lovable para o SUpabase | Alta | Feita |
 | 5 | (escreva aqui) | Média | ⏳ A fazer |
 | 6 | (escreva aqui) | Baixa | ⏳ A fazer |
 
