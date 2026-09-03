@@ -1,0 +1,61 @@
+1. CUSTO - Modelo de créditos
+
+O Lovable não cobra por token direto, cobra por *créditos*. Desde julho/2025 o crédito é por complexidade, não por mensagem.
+
+- *Free - US$0/mês:* 5 créditos por dia, teto de 30/mês. Projetos sempre públicos. Só pra testar
+
+- *Pro - ~US$25/mês* (US$21 se anual): 100 créditos + 5/dia com rollover. Projetos privados, domínio customizado
+
+- *Business - ~US$50/mês* (US$42 anual): mais créditos, trabalho em time, opt-out de treino de IA
+
+- *Enterprise:* sob consulta
+
+Custo real: uma mudança simples tipo cor de botão = 0,5 crédito. Criar uma landing page completa = 2+ créditos. Por isso um projeto médio gasta 50-150 créditos fácil. E tem custo extra de *Lovable Cloud + Infra* se escalar muito.
+
+2. TECNOLOGIAS USADAS
+
+*Frontend padrão que ele gera:*
+- React 18, TypeScript 5, Vite 5, Tailwind CSS 3, shadcn/ui / Radix UI
+- TanStack React Query v5 para estado/cache
+- GitHub Sync para você baixar e editar fora
+
+*Backend e AI:*
+- A IA orquestradora usa Claude Sonnet, GPT-4o, etc para gerar o código
+- Execução em WebContainers (StackBlitz) e E2B sandboxes para preview live 6226
+
+3. FUNCIONAMENTO DO BACKEND E BANCO DE DADOS
+
+Hoje todo projeto novo já nasce com *Lovable Cloud* habilitado por padrão. É na verdade *Supabase gerenciado* - você não precisa criar conta separada no Supabase mais. 2533
+
+Funciona assim:
+- Lovable gera o frontend e já cria a conexão com cliente Supabase
+- Data fetching via hooks custom (ex: `useGames`) com TanStack Query
+- Operações de escrita direto via Supabase client com optimistic updates
+- Lógica server-side roda em *Supabase Edge Functions* (Deno)
+- Auth, Storage, Realtime tudo já incluso
+
+Se quiser, ainda pode conectar seu próprio projeto Supabase externo, mas virou opcional.
+
+4. QUAL SGBD O LOVABLE UTILIZA?
+
+*100% PostgreSQL.*
+Mais especificamente *PostgreSQL 15* via Supabase, com extensões como *pgvector* para IA, além de Auth, Storage e Realtime.
+
+A arquitetura é relacional clássica: tabelas com PK/FK, RLS (Row Level Security) pra segurança. Exemplo real: tabelas `games`, `reviews`, `newsletter` com relacionamento 1:N.
+
+Não usa MySQL, MongoDB ou Firebase nativamente. Se precisar, você tem que integrar manualmente via Edge Function.
+
+5. OTIMIZAÇÃO DE TOKEN / CRÉDITOS
+
+É o ponto que mais queima grana. Estratégias que funcionam:
+
+*- Planeje fora do Lovable:* Escreva seu PRD detalhado no ChatGPT/Claude e só cole a versão final no Lovable. Cada iteração lá custa
+
+*- Batching:* Em vez de "muda botão", "agora muda texto", "agora adiciona logo", faça tudo em 1 prompt só. 1 ação = 1 crédito, independente da complexidade pequena
+
+*- Use Chat Mode:* Para planejar e debugar, use o modo Chat, que não consome crédito de edição
+
+*- Otimização técnica:*
+ - Prompt compression: prompts curtos e com contexto estruturado
+ - Caching layer e evitar reenviar contexto gigante toda hora
+ - Mover lógica determinística pra fora da IA (pré-processar localmente)
