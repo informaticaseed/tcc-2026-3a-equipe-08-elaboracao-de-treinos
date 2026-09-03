@@ -1,0 +1,83 @@
+Código
+
+Requisito funcional
+
+Descrição
+
+RF01
+
+Cadastro de usuário
+
+O sistema deverá permitir que o usuário crie uma conta informando seus dados pessoais.
+
+RF02
+
+Login
+
+O sistema deverá permitir que o usuário entre na plataforma utilizando seus dados de acesso.
+
+RF03
+
+Gerenciamento de perfil
+
+O sistema deverá permitir que o usuário visualize e altere seus dados pessoais.
+
+RF04
+
+Definição de objetivos
+
+O sistema deverá permitir que o usuário informe seus objetivos, como ganhar massa muscular, perder peso ou melhorar o condicionamento físico.
+
+RF05
+
+Montagem de treino
+
+O sistema deverá permitir a criação de treinos personalizados de acordo com os objetivos e informações do usuário.
+
+RF06
+
+Consulta de exercícios
+
+O sistema deverá disponibilizar informações sobre os exercícios, incluindo nome, descrição e orientações para execução.
+
+RF07
+
+Registro de treino
+
+O sistema deverá permitir que o usuário registre os treinos realizados.
+
+RF08
+
+Acompanhamento de progresso
+
+O sistema deverá permitir que o usuário acompanhe sua evolução ao longo do tempo.
+
+RF09
+
+Recomendações alimentares
+
+O sistema deverá apresentar sugestões de alimentação relacionadas aos objetivos informados pelo usuário.
+
+RF10
+
+Gerenciamento de exercícios
+
+O administrador deverá poder cadastrar, editar e excluir exercícios do sistema.
+
+RF11
+
+Gerenciamento de treinos
+
+O administrador deverá poder cadastrar, editar e excluir treinos disponíveis na plataforma.
+
+RF12
+
+Gerenciamento de usuários
+
+O administrador deverá poder visualizar e gerenciar os usuários cadastrados no sistema.
+
+RF13
+
+Gerenciamento de recomendações
+
+O administrador deverá poder cadastrar, editar e excluir recomendações alimentares.
